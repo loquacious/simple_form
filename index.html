@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>Order Now!</title>
+<body>
+
+<h1>Order Now!</h1>
+
+  <fieldset>
+  <legend>Shipping Info</legend>
+  <form action="thankyou.html" method="post">
+
+        <br>
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name"
+        <br><br>
+
+        <label for="address">Address:</label>
+        <input id="address" type="text" name="address"
+        <br><br>
+
+        <label for="city">City:</label>
+        <input type="text" name="city">
+
+        <label for="state">State:</label>
+        <input type="text" name="state" size="2">
+
+        <label for="zip">Zip:</label>
+        <input type="text" name="zip" size= "5>
+
+
+
+
+      Zip:
+        <input type="text" name="Zip" size "5">
+        <br><br>
+      </fieldset>
+
+      <fieldset>
+      <legend>Order Info</legend>
+
+      <label for="size">Size:</label>
+        <select id="size" name="size">
+          <option value="SM"selected >Small</option>
+          <option value="MD">Medium</option>
+          <option value="LG">Large</option>
+          <option value="XL">X-Large</option>
+        </select>
+
+      Quantity:
+        <input type="text" name="Quantity" maxlength "3" size "3">
+        <br><br>
+    </fieldset>
+
+    <fieldset>
+
+    <legend>Payment Info</legend>
+
+      Card Type:
+        <input id="visa" type="radio" name="card_type" value="Visa" checked>
+        <label for="visa">Visa</label>
+
+        <input id="mc" type="radio" name="card_type" value="mc">
+        <label for="mc">Master Card</label>
+
+        <input id="disc" type="radio" name="card_type" value="disc">
+        <label for="disc">Discover</label>
+
+        <br>
+
+      Credit Card Number:
+        <input type="text" name="Credit Card Number">
+        <br><br>
+        </fieldset>
+        <br>
+        <input type="submit">
+
+  </form>
+
+
+</body>
+</html>
